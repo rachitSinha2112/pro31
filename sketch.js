@@ -42,7 +42,7 @@ function draw() {
       particles.push(new Particle(random(width/2-10,width/2+10),10,10));
   }
  
-  for(var k=0;k<=width;k+50){
+  for(var k=0;k<=width;k=k+50){
       divisions.push(new Division(k,height-divisionHeight/2,10,divisionHeight)); 
   }
 
